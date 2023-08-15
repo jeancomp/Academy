@@ -1,6 +1,6 @@
 # OpenDPMH: An Extensible Framework for Developing Mobile Sensing Applications of Digital Phenotyping
 <p align="center">
-OpenDPMH is a framework for developing mobile sensing applications able to collect useful user information for Digital Phenotyping of Mental Health (DPMH).
+OpenDPMHh is a framework for developing mobile sensing applications able to collect useful user information for Digital Phenotyping of Mental Health (DPMH).
 </p>
 
 <p align="center">
