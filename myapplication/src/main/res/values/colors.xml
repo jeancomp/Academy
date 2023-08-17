@@ -62,8 +62,8 @@
     <!--<color name="colorPrimary">#009688</color>
     <color name="colorPrimaryDark">#00796b</color>-->
 
-    <color name="colorPrimary">#03A9F4</color>
-    <color name="colorPrimaryDark">#2196F3</color>
+    <color name="colorPrimary">#F8AB93</color>
+    <color name="colorPrimaryDark">#F8AB93</color>
 
     <color name="colorAccent">#B7695C</color>
 
@@ -75,7 +75,7 @@
 
     <!-- COR ORIGINAL -->
     <!--    <color name="colorNavy">#01385e</color>-->
-    <color name="colorNavy">#0D7ED8</color>
+    <color name="colorNavy">#DA5F39</color>
 
     <color name="colorRed">#C62828</color>
     <color name="colorGreen">#99F69E</color>

@@ -1,10 +1,10 @@
-# OpenDPMH: An Extensible Framework for Developing Mobile Sensing Applications of Digital Phenotyping
+# Academy: An application for managing classes
 <p align="center">
-OpenDPMHh is a framework for developing mobile sensing applications able to collect useful user information for Digital Phenotyping of Mental Health (DPMH).
+Academy is an application to keep track of scheduled classes, register frequencies.
 </p>
 
 <p align="center">
-  <img src="https://github.com/jeancomp/OpenDPMH/blob/master/open-dpmh-example.jpg" alt="OpenDPMH" width="300" />
+  <img src="https://github.com/jeancomp/Academy/blob/master/telaprincipal.jpg" alt="academy" width="400" />
 </p>
 
 ## 📋 Requirements
@@ -16,32 +16,27 @@ OpenDPMHh is a framework for developing mobile sensing applications able to coll
 
 ### Composition mode:
 
- Composition mode is the app's behavior when a new data is collected by the middleware. The possibilities are:
+ Composição:
 
-- SEND_WHEN_IT_ARRIVES
-- GROUP_ALL
-- FREQUENCY
-  - setFrequency(value)
+- S...
+- G...
+- F...
+  - s...
 
 
-### ⚙️ The Digital phenotyping manager
+### ⚙️ Start Academy
 ```
-digitalPhenotypingManager = new DPManager.Builder(this)
-                .setExternalServer("nameserver.com",1883)
-                .setCompositionMode(CompositionMode.FREQUENCY)
-                .setFrequency(15)
-                .build();
-        digitalPhenotypingManager.start();
+d..
 ```
 
-### Stop the Digital phenotyping manager
+### Stop Academy
 ```sh
 digitalPhenotypingManager.stop();
 ```
 
 ## 🧰 Plugin
 
-> The OpenDPMH architecture is enabled to add plugins, which extend the framework's capabilities by allowing the addition of new data processing modules.
+> The ...
 
 ### [Plugin Repository](https://github.com/jeancomp/Plugin)
 
@@ -49,12 +44,12 @@ digitalPhenotypingManager.stop();
 ## 👏 Contributing
  
 
-OpenDPMH is an open-source project. If there is a bug, or other improvement you would like to report or request, we encourage you to contribute.
+Academy is an open-source project. If there is a bug, or other improvement you would like to report or request, we encourage you to contribute.
 
-Please, feel free to contact us for any questions: [![Gmail Badge](https://img.shields.io/badge/-ariel@lsdi.ufma.br-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ariel@lsdi.ufma.br)](mailto:ariel@lsdi.ufma.br)
+Please, feel free to contact us for any questions: [![Gmail Badge](https://img.shields.io/badge/-jeancomp@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ariel@lsdi.ufma.br)](mailto:ariel@lsdi.ufma.br)
 
 ## 📄 License
 
-OpenDPMH is LGPL-v3.0 licensed, as found in the [LICENSE][l] file.
+Academy is LGPL-v3.0 licensed, as found in the [LICENSE][l] file.
 
 [l]: https://github.com/jeancomp/OpenDPMH/blob/master/LICENSE.md
